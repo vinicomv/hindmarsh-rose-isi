@@ -13,7 +13,7 @@ $$
 \dot{z} = r [s (x - x_r) - z]. \\
 $$
 
-The interspike interval (ISI) phase diagrams are produced by taking steps in $(b, I_e)$ parameter and analyzing the ISI of the time series after discarding the transient. The minimum and maximum values of ISI for a point in the parameter space is registered and used as a color map. 
+The interspike interval (ISI) phase diagrams are produced by taking steps in $(b, I_e)$ parameter space and analyzing the ISI of the time series after discarding the transient. The minimum and maximum values of ISI for a point in the parameter space is registered and used as a color map. 
 
 ## Code implementation details
 - The code is written in C and uses OpenMP to multithread, and run different lines of the phase diagram in parallel. Use -fopenmp flag when compiling and adapt thread number to your system.
