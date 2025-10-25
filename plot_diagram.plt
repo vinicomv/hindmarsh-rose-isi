@@ -11,7 +11,7 @@ set cblabel 'ISI_{min}' font ",20" offset "1,0,0"
 
 set palette defined (0 "blue", 10 "dark-blue", 10 "white", 20 "black", 20 "dark-violet", 120 "yellow" )
 #------------------------------------------------------------------------------------------------------
-# Here are some command options to add a colored vertical bar as the one in Figure 4A. They are adapted to that resolution. Uncomment and change the coordinates in order to add them as you fit.
+# Here are some command options to add a colored vertical bar as the one in Figure 4D. They are adapted to that resolution. Uncomment and change the coordinates in order to add them as you fit.
 #------------------------------------------------------------------------------------------------------
 #CS
 #set arrow 1 front from 1.35,5.22000 to 1.35,5.22815 nohead dashtype 1 lc 'dark-green' lw 4.5
