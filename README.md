@@ -16,9 +16,9 @@ $$
 The interspike interval (ISI) phase diagrams are produced by taking steps in $(b, I_e)$ parameter space and analyzing the ISI of the time series after discarding the transient. The minimum and maximum values of ISI for a point in the parameter space is registered and used as a color map. 
 
 ## Code implementation details
-- The code is written in C and uses OpenMP to multithread, and run different lines of the phase diagram in parallel. Use -fopenmp flag when compiling and adapt thread number to your system.
+- The code is written in C and uses OpenMP to multithread, and run different lines of the phase diagram in parallel. Use -fopenmp flag when compiling and **adapt thread number to your system by modifying** hr_code.c
 - In order to reduce fprintf calls, and better save runtime, buffer sizes were set so that the data file is written "in batches". Change this to your preference.
-- Bash script build_diagram.sh compiles, runs the C file with a time discretization and plots the phase diagram. In order to change time interval and number of iterations, change in this bash script.
+- Bash script build_diagram.sh compiles, runs the C file with a certain time discretization and plots the phase diagram. In order to change time interval and number of iterations, change in this bash script.
 - Plot details in GNUPLOT file.
 - In order to compile, either run build_diagram.sh or use:
 ```
