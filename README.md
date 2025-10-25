@@ -3,8 +3,8 @@ This code produces interspike interval (ISI) phase diagrams by taking steps in $
 The code is written in C, implementing a 4th order Runge-Kutta method to solve the HR equations:
 $$
 \begin{aligned}
-& \frac{d x}{d t}=y+\phi(x)-z+I \\
-& \frac{d y}{d t}=\psi(x)-y \\
-& \frac{d z}{d t}=r\left[s\left(x-x_R\right)-z\right]
+\dot{x} &= y - a x^3 + b x^2 - z + I, \\
+\dot{y} &= c - d x^2 - y, \\
+\dot{z} &= r [s (x - x_r) - z].
 \end{aligned}
 $$
