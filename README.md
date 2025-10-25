@@ -22,7 +22,7 @@ The interspike interval (ISI) phase diagrams are produced by taking steps in $(b
 - Plot details in GNUPLOT file. The script is such that it will generate Figure 4D picture:
 
 <p align="center">
-  <img src="./Fig4.png" alt="Phase diagram" width="500">
+  <img src="Fig4.png" alt="Phase diagram" width="500">
 </p>
 
 - In order to compile, either run build_diagram.sh or use:
