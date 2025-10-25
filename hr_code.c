@@ -122,8 +122,8 @@ int main(int argc, const char *argv[]) {
     printf("t = %f --- rep = %d\n", t, repete);
 
     // data files 
-    FILE *pd = fopen("prl_max.dat", "a+");
-    FILE *pm = fopen("prl_min.dat", "a+");
+    FILE *pd = fopen("phase_.maxdat", "a+");
+    FILE *pm = fopen("phase_min.dat", "a+");
 
     // set large buffer to reduce I/O overhead
     char *file_buffer = malloc(FILE_BUFFER_SIZE);
