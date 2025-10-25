@@ -30,7 +30,7 @@ The interspike interval (ISI) phase diagrams are produced by taking steps in $(b
 gcc hr_code.c -march=native -O2 -lm -o HR -fopenmp
 ```
 ### Final disclaimer
-If you use this repositoty, please cite:
+If you use this repository, please cite:
 
 @article{10.1063/5.0239268,
     author = {Stenzinger, Rafael V. and Luz Oliveira, Vinícius and Tragtenberg, M. H. R.},
