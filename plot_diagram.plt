@@ -34,11 +34,11 @@ set palette defined (0 "blue", 10 "dark-blue", 10 "white", 20 "black", 20 "dark-
 #Period-1 LAO
 #set arrow 7 front from 1.35,5.29730 to 1.35,5.31000 nohead dashtype 1 lc 'green' lw 4.5
 
-plot "prl_min.dat" with points pointtype 7 palette
+plot "phase_min.dat" with points pointtype 7 palette
 
 set output "phase_diagram_max.eps"
 set title "Maximum ISI phase diagram" font ",24" offset 0,-1.2,0
 set cblabel 'ISI_{max}' font ",20" offset 1,0,0
 
-plot "plt_max.dat" with points pt 7 palette
+plot "phase_max.dat" with points pt 7 palette
 
