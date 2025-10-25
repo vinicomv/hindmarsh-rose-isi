@@ -29,3 +29,24 @@ The interspike interval (ISI) phase diagrams are produced by taking steps in $(b
 ```
 gcc hr_code.c -march=native -O2 -lm -o HR -fopenmp
 ```
+### Final disclaimer
+If you use this repositoty, please cite:
+@article{10.1063/5.0239268,
+    author = {Stenzinger, Rafael V. and Luz Oliveira, VinÃ­cius and Tragtenberg, M. H. R.},
+    title = {Shrimp hubs in the HindmarshâRose model},
+    journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
+    volume = {35},
+    number = {2},
+    pages = {023148},
+    year = {2025},
+    month = {02},
+    issn = {1054-1500},
+    doi = {10.1063/5.0239268},
+    url = {https://doi.org/10.1063/5.0239268},
+    eprint = {https://pubs.aip.org/aip/cha/article-pdf/doi/10.1063/5.0239268/20400868/023148_1_5.0239268.pdf},
+}
+
+
+
+
+
