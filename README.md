@@ -34,7 +34,7 @@ If you use this repositoty, please cite:
 
 @article{10.1063/5.0239268,
     author = {Stenzinger, Rafael V. and Luz Oliveira, Vinícius and Tragtenberg, M. H. R.},
-    title = {Shrimp hubs in the HindmarshâRose model},
+    title = {Shrimp hubs in the Hindmarsh-Rose model},
     journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
     volume = {35},
     number = {2},
