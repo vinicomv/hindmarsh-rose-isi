@@ -1,5 +1,5 @@
 # ISI phase diagrams of HR model
-As shown in the article "Shrimp hubs in the Hindmarsh-Rose model" (https://doi.org/10.1063/5.0239268), co-autored by Rafael V. Stenzinger, Vinícius L. Oliveira and Marcelo H. R. Tragtenberg, the HR model presents shrimp-like periodic structures in its phase diagram. The code presented in this repository was used to produce the results in this article, and can be modified to generate plots such as the ones in Figures 4, 6, 7 and 8 (just modify the numbers for $b$, $I_e$ and their step number in hr_code.c to better fit your needs). 
+As shown in the article "Shrimp hubs in the Hindmarsh-Rose model" (https://doi.org/10.1063/5.0239268), co-authored by Rafael V. Stenzinger, Vinícius L. Oliveira and Marcelo H. R. Tragtenberg, the HR model presents shrimp-like periodic structures in its phase diagram. The code presented in this repository was used to produce the results in this article, and can be modified to generate plots such as the ones in Figures 4, 6, 7 and 8 (just modify the numbers for $b$, $I_e$ and their step number in hr_code.c to better fit your needs). 
 
 The code is written in C, implementing a 4th order Runge-Kutta method to solve the HR equations:
 
